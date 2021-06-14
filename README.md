@@ -1,2 +1,2 @@
 # OpenHome
-A project for contorlling all your IOT devices in one app
+A project for controlling all your IOT devices within one app.
