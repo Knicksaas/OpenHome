@@ -1,0 +1,52 @@
+:root{
+    -webkit-tap-highlight-color: transparent;
+    --background-color: #111111;
+    --navbar-color: #333333;
+    --navbar-color-hover: #444444;
+    --text-color: #CCCCCC;
+}
+
+body{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    font-size: 50px;
+}
+
+.background{
+    background-color: var(--background-color);
+    height: 100vh;
+}
+
+.content {
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.navigationBar{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: var(--navbar-color);
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.navigation-bar-button{
+    text-align: center;
+    alignment: center;
+    color: var(--text-color);
+    padding: 15px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.navigation-bar-button:hover{
+    background-color: var(--navbar-color-hover);
+}
+
+.navigation-bar-button:active{
+    background-color: var(--navbar-color-hover);
+}
